@@ -1,0 +1,207 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    margin-top: 39px;
+}
+#logo {
+    float: left;
+    
+    width: 126px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 38px;
+    
+}
+#toppara{
+
+    text-align: center;
+    font-size: 16px;
+    
+}
+#heading{
+    text-align: center;
+    
+    color: blue;
+    font-size: 26px;
+    
+}
+#slideshowtop{
+    
+    text-align: center;
+    color: rgb(65, 47, 59);
+    transition: 2s; 
+    /* DON'T KNOW WHY MOTION IS NOT SHOWING USING TRANSITION */
+    
+}
+.liveupdates{
+    border: solid red;
+    border-radius: 9px;
+margin-right: 400px;
+margin-left: 430px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(223, 201, 184);
+}
+.liveupdates a{
+    color: brown;
+}
+.liveupdates a:hover{
+    color: rgb(240, 255, 246);
+}
+.nevbar{
+    display:flex;
+    border-radius: 8px;
+    background-color: rgb(247, 214, 108);
+    list-style-type:none;
+padding: 0px;
+margin: 0px;
+
+
+
+}
+.nevbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.nevbar li a{
+
+text-decoration: none;
+padding: 7px;
+/* keep it 15px if not perfectly visible */
+font-size: 17px;
+/* keep it 20px if not perfectly visibl */
+
+}
+.nevbar li a:hover{
+    color: white;
+}
+#picword{
+background-image: url(covid.jpeg);
+height: 550px;
+background-size: cover;
+margin-bottom: 8px;
+text-align: end;
+}
+
+#reg1{
+    align-items: flex-end;
+}
+#reg2{
+    align-items: flex-end;
+}
+#vidcontent{
+    display:inline-flex;
+    margin-bottom: 39px;
+}  
+.vid{
+    display:flex;
+    margin-right: 68px;
+
+}
+
+#vidside{
+display:inline-grid;
+background-color: orange;
+border: 5px;
+border-radius: 14px
+}
+#vidlink{
+    text-decoration-line: underline;
+    padding: 12px
+}
+#vidside ul li a{
+    text-decoration-color: rgb(231, 35, 35);
+    color: white;
+
+}
+#vidside ul li a:hover{
+    color: rgb(134, 134, 109);
+
+}
+#article ul{
+background-color: rgb(221, 84, 107)
+}
+#article ul li a{
+    color: white
+}
+#article ul li a:hover{
+    color: bisque
+}
+#articleheading{
+    font-size: 45px;
+}
+#directarticle{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;
+
+
+}
+#directarticle:hover{
+    background-color: beige;
+}
+#regtohanumanmandir{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;
+margin-right:890px; 
+}
+#linksheading{
+    font-size: 46px;
+    
+}
+#importantlinks{
+    background-color: rgba(240, 42, 164, 0.699);
+    font-size: 21px;
+    
+}
+#importantlinks ul li a{
+    text-decoration-color: white;
+    color: rgb(247, 235, 217);
+
+}
+#importantlinks ul li a:hover{
+    color: rgb(12, 6, 17);
+}
+#link1{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;   
+}
+#link2{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;
+}
+#link3{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px; 
+
+}
+#link3 ul li a{
+    color: black;
+}
+#link3 ul li a:hover{
+    color: rgb(77, 233, 111);
+}
+#link4{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;  
+}
+footer{
+    padding: 21px;
+    padding-left: 425px;
+    
+}
