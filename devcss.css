@@ -1,264 +1,354 @@
-body{
+body {
     background-color: lightblue;
     margin: 0;
     padding: 0;
 }
 
-#header{
+#header {
     margin-top: 39px;
 }
+
 #logo {
     float: left;
-    
+
     width: 126px;
     padding-top: 10px;
     margin-left: 10px;
     border-radius: 38px;
-    
+
 }
-#toppara{
+
+#toppara {
 
     text-align: center;
     font-size: 16px;
-    
+
 }
-#heading{
+
+#heading {
     text-align: center;
-    
+
     color: blue;
     font-size: 26px;
-    
+
 }
-#slideshowtop{
-    
+
+#slideshowtop {
+
     text-align: center;
     color: rgb(65, 47, 59);
-    transition: 2s; 
-    /* DON'T KNOW WHY MOTION IS NOT SHOWING USING TRANSITION */
-    
+    transition: 2s;
+    /* when  first time website is opened then transition will work like it will come pop-out like  */
+
 }
-.liveupdates{
+
+.liveupdates {
     border: solid red;
     border-radius: 9px;
-margin-right: 400px;
-margin-left: 430px;
+    margin-right: 400px;
+    margin-left: 430px;
     font-size: 22px;
     text-align: center;
     background-color: rgb(223, 201, 184);
 }
-.liveupdates a{
+
+.liveupdates a {
     color: brown;
 }
-.liveupdates a:hover{
+
+.liveupdates a:hover {
     color: rgb(240, 255, 246);
 }
-.nevbar{
-    display:flex;
+
+.nevbar {
+    display: flex;
     border-radius: 8px;
     background-color: rgb(247, 214, 108);
-    list-style-type:none;
-padding: 0px;
-margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 
 
 
 }
-.nevbar ul{
+
+.nevbar ul {
     list-style-type: none;
     display: flex;
 }
-.nevbar li a{
 
-text-decoration: none;
-padding: 7px;
-/* keep it 15px if not perfectly visible */
-font-size: 17px;
-/* keep it 20px if not perfectly visibl */
+.nevbar li a {
+
+    text-decoration: none;
+    padding: 7px;
+    /* keep it 15px if not perfectly visible */
+    font-size: 17px;
+    /* keep it 20px if not perfectly visibl */
 
 }
-.nevbar li a:hover{
+
+.nevbar li a:hover {
     color: white;
 }
-#picword{
-background-image: url(covid.jpeg);
-height: 550px;
-background-size: cover;
-margin-bottom: 8px;
-text-align: end;
+
+#picword {
+    background-image: url(covid.jpeg);
+    height: 550px;
+    background-size: cover;
+    margin-bottom: 8px;
+    text-align: end;
 }
 
-#reg1{
+#reg1 {
     align-items: flex-end;
 }
-#reg2{
+
+#reg2 {
     align-items: flex-end;
 }
-#vidcontent{
-    display:inline-flex;
+
+#vidcontent {
+    display: inline-flex;
     margin-bottom: 39px;
-}  
-.vid{
-    display:flex;
+}
+
+.vid {
+    display: flex;
     margin-right: 68px;
 
 }
 
-#vidside{
-display:inline-grid;
-background-color: orange;
-border: 5px;
-border-radius: 14px
+#vidside {
+    display: inline-grid;
+    background-color: orange;
+    border: 5px;
+    border-radius: 14px
 }
-#vidlink{
+
+#vidlink {
     text-decoration-line: underline;
     padding: 12px
 }
-#vidside ul li a{
+
+#vidside ul li a {
     text-decoration-color: rgb(231, 35, 35);
     color: white;
 
 }
-#vidside ul li a:hover{
+
+#vidside ul li a:hover {
     color: rgb(134, 134, 109);
 
 }
-#article ul{
-background-color: rgb(221, 84, 107)
+
+#article ul {
+    background-color: rgb(221, 84, 107)
 }
-#article ul li a{
+
+#article ul li a {
     color: white
 }
-#article ul li a:hover{
+
+#article ul li a:hover {
     color: bisque
 }
-#articleheading{
+
+#articleheading {
     font-size: 45px;
 }
-#directarticle{
-    border:solid blue;
+
+#directarticle {
+    border: solid blue;
     background-color: white;
     border-radius: 9px;
-padding: 8px;
+    padding: 8px;
 
 
 }
-#directarticle:hover{
+
+#directarticle:hover {
     background-color: beige;
 }
-#regtohanumanmandir{
-    border:solid blue;
+
+#regtohanumanmandir {
+    border: solid blue;
     background-color: white;
     border-radius: 9px;
-padding: 8px;
-margin-right:890px; 
+    padding: 8px;
+    margin-right: 890px;
 }
-#linksheading{
+
+#linksheading {
     font-size: 46px;
-    
+
 }
-#importantlinks{
+
+#importantlinks {
     background-color: rgba(240, 42, 164, 0.699);
     font-size: 21px;
     margin-bottom: 20px;
-    
+
 }
-#importantlinks ul li a{
+
+#importantlinks ul li a {
     text-decoration-color: white;
     color: rgb(247, 235, 217);
 
 }
-#importantlinks ul li a:hover{
+
+#importantlinks ul li a:hover {
     color: rgb(12, 6, 17);
 }
-#link1{
-    color: rgb(5, 255, 255);
-    border:solid rgb(0, 255, 221);
+
+#link1 {
+    color: rgb(255, 146, 4);
+    border: solid rgb(0, 255, 221);
     background-color: white;
     border-radius: 9px;
-padding: 8px; 
-height: 450px;
-background-image:url(getvaccinated1.jpg);
-background-repeat: repeat-x;
+    padding: 8px;
+    height: 450px;
+    /* background-image:url(getvaccinated1.jpg); */
+    background-repeat: repeat-x;
 
 }
-#link1 a{
+
+#link1 a {
     color: rgb(10, 231, 231);
 }
-#link1 a:hover{
-    color: rgb(13, 238, 62); 
+
+#link1 a:hover {
+    color: rgb(250, 17, 0);
 }
-#link2{
-    border:solid blue;
+
+#link2 {
+    border: solid blue;
     color: darkred;
     border-radius: 9px;
-padding: 8px;
-background-image:url(remdesivir.jpg);
+    padding: 8px;
+    background-image: url(remdesivir.jpg);
 
 }
-#link3{
-    border:solid blue;
-   
+
+#link3 {
+    border: solid blue;
+    color: rgb(251, 255, 0);
     border-radius: 9px;
-padding: 8px; 
-background-image: url(one.jpg);
-background-size: cover;
+    padding: 8px;
+    background-image: url(one.jpg);
+    background-size: cover;
 
 
 }
-#link3 ul li a{
-    color: black;
+
+#link3 ul li a {
+    color: rgb(209, 206, 12);
 }
-#link3 ul li a:hover{
-    color: rgb(77, 233, 111);
+
+#link3 ul li a:hover {
+    color: rgb(255, 255, 255)
 }
-#link4{
-    border:solid blue;
+
+#link4 {
+    border: solid blue;
     background-color: white;
     border-radius: 9px;
-padding: 8px;  
+    padding: 8px;
 }
-#link5{
-    border:solid blue;
+
+#link5 {
+    border: solid blue;
     background-color: white;
     border-radius: 9px;
-padding: 8px;  
+    padding: 8px;
 
 }
-#link5 i:hover{
+
+#link5 i:hover {
     color: rgb(87, 218, 12);
 }
-.plasma{
+
+.plasma {
     font-size: 39px;
     color: rgb(238, 22, 22);
 }
-#aboutplasmatherapy{
+
+#aboutplasmatherapy {
     background-color: rgb(175, 175, 76);
     font-size: 18px;
 
 }
-#aboutplasmatherapy ul li{
+
+#aboutplasmatherapy ul li {
     background-color: lightgrey;
     font-size: 26px;
     color: black;
 }
-#plasmaupdates{
+
+#plasmaupdates {
     background-color: rgb(168, 111, 41);
     font-size: 19px;
     padding: 9px;
     border-radius: 16px;
     color: white;
-    
+
 
 }
 
-#latest_updates{
-    color: red;
-text-decoration-line: overline;
-font-size: 34px;
+#latest_updates {
+    color: rgb(255, 255, 255);
+    text-decoration-line: overline;
+    font-size: 34px;
+}
+
+#plasma {
+    background-image: url(plasma.jpg);
 
 }
-footer{
-    padding: 21px;
-    padding-left: 425px;
-    
+
+#plasma a {
+    color: rgb(231, 208, 2);
+}
+
+#plasma a:hover {
+    color: rgb(41, 185, 161);
+}
+
+#newsletter {
+    border: solid 4px hotpink;
+
+    background-image: url(query.jpg);
+
+}
+
+
+footer {
+    border-top: solid 2px black;
+    background-color: silver;
+    font-size: 30px;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+}
+
+.wrapper ul li {
+    display: inline-block;
+
+
+}
+
+.wrapper ul a {
+    color: black;
+    height: 100px;
+    width: 100px;
+
+}
+
+.wrapper ul a:hover i {
+    transform: scale(1.4);
+    color: cadetblue;
+}
+
+.wrapper {
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
 }
