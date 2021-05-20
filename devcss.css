@@ -159,6 +159,7 @@ margin-right:890px;
 #importantlinks{
     background-color: rgba(240, 42, 164, 0.699);
     font-size: 21px;
+    margin-bottom: 20px;
     
 }
 #importantlinks ul li a{
@@ -170,22 +171,38 @@ margin-right:890px;
     color: rgb(12, 6, 17);
 }
 #link1{
-    border:solid blue;
-    background-color: white;
-    border-radius: 9px;
-padding: 8px;   
-}
-#link2{
-    border:solid blue;
-    background-color: white;
-    border-radius: 9px;
-padding: 8px;
-}
-#link3{
-    border:solid blue;
+    color: rgb(5, 255, 255);
+    border:solid rgb(0, 255, 221);
     background-color: white;
     border-radius: 9px;
 padding: 8px; 
+height: 450px;
+background-image:url(getvaccinated1.jpg);
+background-repeat: repeat-x;
+
+}
+#link1 a{
+    color: rgb(10, 231, 231);
+}
+#link1 a:hover{
+    color: rgb(13, 238, 62); 
+}
+#link2{
+    border:solid blue;
+    color: darkred;
+    border-radius: 9px;
+padding: 8px;
+background-image:url(remdesivir.jpg);
+
+}
+#link3{
+    border:solid blue;
+   
+    border-radius: 9px;
+padding: 8px; 
+background-image: url(one.jpg);
+background-size: cover;
+
 
 }
 #link3 ul li a{
@@ -199,6 +216,46 @@ padding: 8px;
     background-color: white;
     border-radius: 9px;
 padding: 8px;  
+}
+#link5{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;  
+
+}
+#link5 i:hover{
+    color: rgb(87, 218, 12);
+}
+.plasma{
+    font-size: 39px;
+    color: rgb(238, 22, 22);
+}
+#aboutplasmatherapy{
+    background-color: rgb(175, 175, 76);
+    font-size: 18px;
+
+}
+#aboutplasmatherapy ul li{
+    background-color: lightgrey;
+    font-size: 26px;
+    color: black;
+}
+#plasmaupdates{
+    background-color: rgb(168, 111, 41);
+    font-size: 19px;
+    padding: 9px;
+    border-radius: 16px;
+    color: white;
+    
+
+}
+
+#latest_updates{
+    color: red;
+text-decoration-line: overline;
+font-size: 34px;
+
 }
 footer{
     padding: 21px;
